@@ -1,0 +1,20 @@
+{
+    "title": "Transactions Dashboard",
+    "visualizations": [
+      {
+        "type": "line",
+        "title": "Transactions Over Time",
+        "source": "transactions_index",
+        "field": "timestamp",
+        "metric": "amount"
+      },
+      {
+        "type": "bar",
+        "title": "Transaction Amounts by Customer",
+        "source": "transactions_index",
+        "field": "customer_id",
+        "metric": "amount"
+      }
+    ]
+  }
+  

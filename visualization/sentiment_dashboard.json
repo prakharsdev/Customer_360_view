@@ -1,0 +1,19 @@
+{
+    "title": "Sentiment Dashboard",
+    "visualizations": [
+      {
+        "type": "pie",
+        "title": "Sentiment Distribution",
+        "source": "social_media_index",
+        "field": "sentiment"
+      },
+      {
+        "type": "line",
+        "title": "Sentiment Over Time",
+        "source": "social_media_index",
+        "field": "timestamp",
+        "metric": "sentiment"
+      }
+    ]
+  }
+  
